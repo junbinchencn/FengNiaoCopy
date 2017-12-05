@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A593F9911FD6DD780021A761 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593F9901FD6DD780021A761 /* main.swift */; };
 		OBJ_103 /* FengNiaoCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FengNiaoCopy.swift */; };
 		OBJ_105 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Rainbow.framework */; };
 		OBJ_106 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* CommandLineKit.framework */; };
@@ -110,6 +111,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A593F9901FD6DD780021A761 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_12 /* FengNiaoCopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FengNiaoCopyTests.swift; sourceTree = "<group>"; };
 		OBJ_15 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
 		OBJ_17 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
@@ -199,6 +201,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A593F98F1FD6DD370021A761 /* FengNiaoCopy */ = {
+			isa = PBXGroup;
+			children = (
+				A593F9901FD6DD780021A761 /* main.swift */,
+			);
+			name = FengNiaoCopy;
+			path = Sources/FengNiaoCopy;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +314,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -312,12 +323,12 @@
 				OBJ_13 /* Dependencies */,
 				OBJ_42 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A593F98F1FD6DD370021A761 /* FengNiaoCopy */,
 				OBJ_8 /* FengNiaoKitCopy */,
 			);
 			name = Sources;
@@ -455,7 +466,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -493,6 +504,7 @@
 			files = (
 				OBJ_54 /* BackgroundColor.swift in Sources */,
 				OBJ_55 /* CodesParser.swift in Sources */,
+				A593F9911FD6DD780021A761 /* main.swift in Sources */,
 				OBJ_56 /* Color.swift in Sources */,
 				OBJ_57 /* ControlCode.swift in Sources */,
 				OBJ_58 /* ModesExtractor.swift in Sources */,
