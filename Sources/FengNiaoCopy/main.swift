@@ -78,5 +78,14 @@ if versionOption.value{
 }
 
 
+let projectPath = projectPathOption.value ?? "."
+let isForce = isForceOption.value
+let excludePaths = excludePathOption.value ?? []
+let resourceExtentions = resourceExtOption.value ?? ["imageset","jpg","png","gif"]
+let fileExtensions = fileExtOption.value ?? ["m","mm","swift","xib","storyboard","plist"]
+
+
+
+
 
 
