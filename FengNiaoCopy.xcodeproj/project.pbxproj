@@ -10,6 +10,7 @@
 		A50C51881FDD6BB800E594D3 /* FileSearchRuleCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C51871FDD6BB800E594D3 /* FileSearchRuleCopy.swift */; };
 		A50C518A1FDD70CD00E594D3 /* ExtensionsCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50C51891FDD70CD00E594D3 /* ExtensionsCopy.swift */; };
 		A593F9911FD6DD780021A761 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A593F9901FD6DD780021A761 /* main.swift */; };
+		A5E1CD0C1FE016FF00A219A3 /* ExtensionFindProcessCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1CD0B1FE016FF00A219A3 /* ExtensionFindProcessCopy.swift */; };
 		OBJ_103 /* FengNiaoCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FengNiaoCopy.swift */; };
 		OBJ_105 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Rainbow.framework */; };
 		OBJ_106 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* CommandLineKit.framework */; };
@@ -116,6 +117,7 @@
 		A50C51871FDD6BB800E594D3 /* FileSearchRuleCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSearchRuleCopy.swift; sourceTree = "<group>"; };
 		A50C51891FDD70CD00E594D3 /* ExtensionsCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionsCopy.swift; sourceTree = "<group>"; };
 		A593F9901FD6DD780021A761 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A5E1CD0B1FE016FF00A219A3 /* ExtensionFindProcessCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFindProcessCopy.swift; sourceTree = "<group>"; };
 		OBJ_12 /* FengNiaoCopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FengNiaoCopyTests.swift; sourceTree = "<group>"; };
 		OBJ_15 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
 		OBJ_17 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
@@ -344,6 +346,7 @@
 				OBJ_9 /* FengNiaoCopy.swift */,
 				A50C51871FDD6BB800E594D3 /* FileSearchRuleCopy.swift */,
 				A50C51891FDD70CD00E594D3 /* ExtensionsCopy.swift */,
+				A5E1CD0B1FE016FF00A219A3 /* ExtensionFindProcessCopy.swift */,
 			);
 			name = FengNiaoKitCopy;
 			path = Sources/FengNiaoKitCopy;
@@ -517,6 +520,7 @@
 				OBJ_59 /* OutputTarget.swift in Sources */,
 				OBJ_60 /* Rainbow.swift in Sources */,
 				A50C51881FDD6BB800E594D3 /* FileSearchRuleCopy.swift in Sources */,
+				A5E1CD0C1FE016FF00A219A3 /* ExtensionFindProcessCopy.swift in Sources */,
 				OBJ_61 /* String+Rainbow.swift in Sources */,
 				OBJ_62 /* StringGenerator.swift in Sources */,
 				OBJ_63 /* Style.swift in Sources */,
