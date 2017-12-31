@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_49"
+               BlueprintIdentifier = "OBJ_55"
                BuildableName = "Rainbow.framework"
                BlueprintName = "Rainbow"
                ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_66"
+               BlueprintIdentifier = "OBJ_72"
                BuildableName = "CommandLineKit.framework"
                BlueprintName = "CommandLineKit"
                ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_75"
+               BlueprintIdentifier = "OBJ_81"
                BuildableName = "Spectre.framework"
                BlueprintName = "Spectre"
                ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_89"
+               BlueprintIdentifier = "OBJ_95"
                BuildableName = "PathKit.framework"
                BlueprintName = "PathKit"
                ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
@@ -70,7 +70,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_98"
+               BlueprintIdentifier = "OBJ_104"
+               BuildableName = "FengNiaoCopy"
+               BlueprintName = "FengNiaoCopy"
+               ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_121"
                BuildableName = "FengNiaoKitCopy.framework"
                BlueprintName = "FengNiaoKitCopy"
                ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
@@ -88,7 +102,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_113"
+               BlueprintIdentifier = "OBJ_139"
                BuildableName = "FengNiaoCopyTests.xctest"
                BlueprintName = "FengNiaoCopyTests"
                ReferencedContainer = "container:FengNiaoCopy.xcodeproj">
@@ -111,7 +125,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_49"
+            BlueprintIdentifier = "OBJ_55"
             BuildableName = "Rainbow.framework"
             BlueprintName = "Rainbow"
             ReferencedContainer = "container:FengNiaoCopy.xcodeproj">

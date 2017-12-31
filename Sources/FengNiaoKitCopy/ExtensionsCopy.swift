@@ -35,5 +35,23 @@ extension String{
         }
         return result
     }
+}
 
+// 格式化容量显示
+let fileSizeSuffix = ["B", "KB", "MB", "GB"]
+extension Int {
+    public var fn_readableSize: String {
+        var level = 0
+        var num = Float(self)
+        while num > 1000 && level < 3 {
+            num = num / 1000.0
+            level += 1
+        }
+        
+        if level == 0 {
+            return "\(Int(num)) \(fileSizeSuffix[level])"
+        } else {
+            return String(format: "%.2f \(fileSizeSuffix[level])", num)
+        }
+    }
 }

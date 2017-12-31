@@ -72,8 +72,8 @@ struct XibImageSearchRule : RegPatternSearchRule {
 }
 
 // 用于 plist 的字符串搜索
-struct PlistImageSearchRule :RegPatternSearchRule {
-    let extensions =  [String]()
+struct PlistImageSearchRule: RegPatternSearchRule {
+    let extensions: [String]
     let patterns = ["<key>UIApplicationShortcutItemIconFile</key>[^<]*<string>(.*?)</string>"]
 }
 
