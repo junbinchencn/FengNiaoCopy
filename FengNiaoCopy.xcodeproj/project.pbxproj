@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A526BCFE1FF8BC6000978366 /* CommandPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526BCFD1FF8BC6000978366 /* CommandPrompt.swift */; };
 		OBJ_100 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* PathKit.swift */; };
 		OBJ_102 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Spectre.framework */; };
 		OBJ_109 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
@@ -169,6 +170,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A526BCFD1FF8BC6000978366 /* CommandPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPrompt.swift; sourceTree = "<group>"; };
 		OBJ_11 /* ExtensionFindProcessCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFindProcessCopy.swift; sourceTree = "<group>"; };
 		OBJ_12 /* ExtensionsCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCopy.swift; sourceTree = "<group>"; };
 		OBJ_13 /* FengNiaoCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FengNiaoCopy.swift; sourceTree = "<group>"; };
@@ -393,7 +395,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -402,7 +404,6 @@
 				OBJ_18 /* Dependencies */,
 				OBJ_47 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -418,6 +419,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* main.swift */,
+				A526BCFD1FF8BC6000978366 /* CommandPrompt.swift */,
 			);
 			name = FengNiaoCopy;
 			path = Sources/FengNiaoCopy;
@@ -569,7 +571,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -591,6 +593,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_109 /* main.swift in Sources */,
+				A526BCFE1FF8BC6000978366 /* CommandPrompt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
